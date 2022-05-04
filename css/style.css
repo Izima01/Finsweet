@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
 }
 
 /* Styling page 3 */
@@ -156,6 +157,7 @@
     font-size: 20px;
     line-height: 36px;
     text-align: center;   
+    font-family: 'Manrope', sans-serif;
 }
 
 .offer-images .image-row .image-box:hover {
@@ -186,6 +188,7 @@
     color: black;
     font-size: 18px;
     font-weight: 550;
+    font-family: 'Manrope', sans-serif;
 }
 
 /* styling Page 5 */
@@ -228,6 +231,7 @@
     color: white;
     font-weight: 600;
     padding: 80px 50px 0 60px ;
+    font-family: 'Manrope', sans-serif;
 }
 
 #page5 #experience-section {   
@@ -305,7 +309,7 @@
     font-size: 48px;
     font-weight: 600;
     text-align: center;
-    padding: 80px 0 40px;
+    padding: 80px 0 30px;
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
     width: 60%;
@@ -315,7 +319,7 @@
     width: 80%;
     display: flex;
     justify-content: center;
-    margin: 0 auto 100px;  
+    margin: 0 auto 20px;  
 }
 
 .review-section .review-box {
@@ -330,6 +334,7 @@
     display: flex;
     align-items: center;
     padding-bottom: 20px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .review-section .review-box .review-bio .review-image {
@@ -344,6 +349,7 @@
 .review-section .review-box .review-bio .name {
     font-size: 24px;
     line-height: 36px;
+    font-weight: 600;
 }
 
 .review-section .review-box .review-bio .location {
@@ -354,4 +360,196 @@
 .review-section .review-box .review-text {
     font-size: 24px;
     line-height: 30px;
+    font-family: 'Manrope', sans-serif;
+}
+
+#page7 .page-body .bottom-section {
+    height: 8%;
+    margin: 0px auto 50px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+#page7 .page-body .bottom-section .scroll-lines {
+    margin: 0px auto;
+}
+
+#page7 .page-body .bottom-section .scroll-lines img {
+    margin: 0 40%;
+}
+
+#page7 .page-body .bottom-section .scroll-arrow {
+    justify-content: flex-end;
+    margin-right: 15px;
+    align-items: center;
+    display: flex;
+}
+
+#page7 .page-body .bottom-section .scroll-arrow #left-arrow {
+    width: 35px;
+}
+
+#page7 .page-body .bottom-section .scroll-arrow #right-arrow {
+    width: 55px;
+    padding-left: 10px;
+}
+
+/* Page 8 Styling */
+#page8 .page-body {
+    background-color: #E2E6E9;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+#page8 .page-body h3 {
+    font-size: 48px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faq-section {
+    width: 45%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.faq-section .faq {
+    background-color: #ffffff;
+    padding: 8px 25px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.faq-section .faq .answer p {
+    font-size: 18px;
+    color: #939191;
+    opacity: 0.8;
+    display: none;
+}
+
+.faq-section .faq .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-section .faq .question p {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+/* Styling Page 9 */
+#page9 {
+    width: 100%;
+}
+
+#page9 .top-section {
+    background-color: #1E1B1B;
+    opacity: 0.98;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+#page9 .top-section .left-section {
+    width: 50%;
+    padding: 60px 10px 0px 120px;
+}
+
+#page9 .top-section h3 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 35px;
+    font-family: 'Manrope', sans-serif; 
+}
+
+#page9 .top-section .left-section .social-icons {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+#page9 .top-section .left-section img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+#page9 .top-section .right-section {
+    width: 50%;
+    color: #ffffff;
+    padding-top: 60px;
+}
+
+#page9 .top-section .right-section h5 {
+    font-size: 18px;
+    opacity: 0.65;
+    font-weight: 500;
+    padding-bottom: 5px;
+    font-family: 'Manrope', sans-serif;
+}
+
+#page9 .top-section .right-section p {
+    font-size: 24px;
+    padding-bottom: 30px;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* Styling the Footer */
+footer {
+    background-color: #1E1B1B;
+    opacity: 1;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+footer nav {
+    display: flex;
+    width: 40%;
+    margin-left: 80px;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    padding-right: 30px;
+    font-family: 'Manrope', sans-serif;
+    line-height: 24px;
+}
+
+footer .logo {
+    width: 30%;
+    text-align: center;
+}
+
+footer #copyright {
+    width: 30%;
+}
+
+footer p {
+    text-align: center;
+    margin-right: 80px;
+    font-size: 16px;
+    color: #939191;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: 'Manrope', sans-serif;
 }
