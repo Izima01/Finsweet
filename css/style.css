@@ -829,7 +829,6 @@ footer p {
     #page1 .container .page-body .left-section h1 {
         font-size: 30px;
         font-weight: 600;
-        width: 60%;
     }
 
     #page1 .container .page-body .right-section {
@@ -840,46 +839,48 @@ footer p {
 
     /* Page 2 */
     #page2 .services{
-        margin: 30px auto 0;
+        margin: 50px auto 0;
         width: 80%;
+        height: auto;
     }
     #page2 .services h2 {
-        font-size: 26px;
-        line-height: 30px;
+        font-size: 30px;
+        line-height: 36px;
         width: 100%;
         margin: 0;
     }
     #page2 .services ul li img {
-        width: 32px;
+        width: 46px;
         padding-right: 10px;
     }
-
     #page2 .services ul li h5 {
-        font-size: 16px;
+        font-size: 25px;
     }
     #page2 .services ul li p {
-        font-size: 10px;
-        padding-left: 28px;
-        line-height: 15px;
-        width: 80%;
+        font-size: 18px;
+        padding-left: 48px;
+        line-height: 28px;
+        width: auto;
+        padding-right: 10px;
     }
     #page2 .services .know-more {
-        padding-left: 28px;
+        padding-left: 48px;
     }
     #page2 .services .know-more a {
-        font-size: 12px;
+        font-size: 20px;
     }
     #page2 .services .know-more a img {
-        height: 9px;
+        height: 15px;
     }
     #page2 .form-section {
         width: 90%;
-        margin: 0 auto;
+        margin: 10px auto 0;
     }
     #page2 .form-section h3 {
-        font-size: 23px;
+        font-size: 28px;
+        line-height: 32px;
         width: 100%;
-        margin: 40px auto 20px;
+        margin: 30px auto 10px;
     }
     #page2 .form-section .input-box {
         display: flex;
@@ -896,6 +897,44 @@ footer p {
     }
     #button {
         width: auto;
-        margin: 20px 0 40px 90px ;
+        margin: 20px 0 20px 90px;
+    }
+
+    /* Page 3 */
+    #page3 .process-left {
+        margin: 20px auto 0;
+        width: 92%;
+    }
+    #page3 .process-left h1 {
+        font-size: 36px;        
+    }
+    #page3 .process-right {
+        width: 100%;
+        margin-bottom: 20px;
+        height: auto;
+        margin: 20px auto;
+    }
+    #page3 .process-right .process {
+        width: 100%;
+        margin: 0;
+    }
+    .process-right .process .process-image {
+        width: 32%;
+    }
+    .process-right .process .process-text h3 {
+        font-size: 27px;
+        margin: 10px 0 10px 0;
+    }
+    .process-right .process .process-text p {
+        width: 100%;
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    .process-right .vertical-line {
+        border-left: 2px dashed #FF6433;
+        height: 60px;
+        margin-left: 8%;
+        margin-top: -75px;
+        margin-bottom: 15px;
     }
 }
