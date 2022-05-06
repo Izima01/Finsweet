@@ -802,23 +802,17 @@ footer p {
     #page1 .container header .right-section {
         width: 100%;
         margin: 10px 0;
-        padding: 0;
-                
+        padding: 0;                
     }
     #page1 .container header .right-section ul {
         padding: 0;
         margin: 0 auto;
         width: 100%;
     }    
-
-    #page1 .container header .right-section ul li {
-        padding-right: 10px;
-    }
-
     #page1 .container header ul a {
         font-size: 14px;
         padding-right: 10px;
-        line-height: 0;
+        line-height: 15px;
     }
     #page1 .container .page-body, #page2, #page3 {
         display: flex;
@@ -1002,13 +996,13 @@ footer p {
     }
     #page5 #image-section #orange-box {
         height: 300px;
-        width: 70%;
+        width: 80%;
         background-color: #FF6433;
         position: relative;
         left: 80px;
     }
     #page5 #image-section #orange-box h3 {
-        font-size: 24px;
+        font-size: 22px;
         color: white;
         font-weight: 600;
         padding: 20px;
