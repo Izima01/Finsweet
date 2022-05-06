@@ -317,7 +317,6 @@ input[type="text"] {
     padding-top: 50px;
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
-    letter-spacing: -0.03em;
 }
 
 #page4 .top-section h1 {
@@ -331,12 +330,12 @@ input[type="text"] {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    flex-direction: column;
+    width: 70%;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
-.offer-images .image-row {
+/* .offer-images .image-row {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -344,11 +343,11 @@ input[type="text"] {
     height: 60%;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.offer-images .image-row .image-box, .offer-images .image-row .image-box-selected {
-    width: 220px;
-    height: 140px;
+.offer-images .image-box, .offer-images .image-box-selected {
+    width: 24%;
+    height: 150px;
     background-color: white;
     margin-left: 7px;
     display: flex;
@@ -356,24 +355,29 @@ input[type="text"] {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0 7px 7px 0;
 }
 
-.offer-images .image-row .image-box-selected {
+.offer-images .image-box-selected {
     background-color: #FF6433;
 } 
 
-.offer-images .image-row .image-box img, .offer-images .image-row .image-box-selected img {
+.offer-images .image-box img, .offer-images .image-box-selected img {
     width: 35px;
 }
 
-.offer-images .image-row .image-box p, .offer-images .image-row .image-box-selected p {
+.offer-images .image-box p, .offer-images .image-box-selected p {
     font-size: 20px;
     line-height: 36px;
-    text-align: center;   
+    text-align: center;
     font-family: 'Manrope', sans-serif;
 }
 
-.offer-images .image-row .image-box:hover {
+.offer-images .image-box-selected p {
+    color: white;
+}
+
+.offer-images .image-box:hover {
     background-color: #FF6433;
     color: white;
     font-weight: 550;
@@ -768,8 +772,9 @@ footer p {
 
 /* Mobile View */
 @media (max-width: 426px) {
-    #page1, #page2 {
+    #page1, #page2, #page4, #page5 {
         height: auto;
+        width: 100%;
     }
     #page1 .container header .contact {
         display: none;
@@ -812,9 +817,8 @@ footer p {
 
     #page1 .container header ul a {
         font-size: 14px;
-        padding-right: 12px;
+        padding-right: 10px;
         line-height: 0;
-        font-weight: 600;
     }
     #page1 .container .page-body, #page2, #page3 {
         display: flex;
@@ -854,10 +858,10 @@ footer p {
         padding-right: 10px;
     }
     #page2 .services ul li h5 {
-        font-size: 25px;
+        font-size: 22px;
     }
     #page2 .services ul li p {
-        font-size: 18px;
+        font-size: 15px;
         padding-left: 48px;
         line-height: 28px;
         width: auto;
@@ -867,7 +871,7 @@ footer p {
         padding-left: 48px;
     }
     #page2 .services .know-more a {
-        font-size: 20px;
+        font-size: 18px;
     }
     #page2 .services .know-more a img {
         height: 15px;
@@ -906,7 +910,7 @@ footer p {
         width: 92%;
     }
     #page3 .process-left h1 {
-        font-size: 36px;        
+        font-size: 34px;        
     }
     #page3 .process-right {
         width: 100%;
@@ -922,7 +926,7 @@ footer p {
         width: 32%;
     }
     .process-right .process .process-text h3 {
-        font-size: 27px;
+        font-size: 24px;
         margin: 10px 0 10px 0;
     }
     .process-right .process .process-text p {
@@ -936,5 +940,77 @@ footer p {
         margin-left: 8%;
         margin-top: -75px;
         margin-bottom: 15px;
+    }
+    /* Page 4 */
+    #page4 .top-section h1 {
+        font-size: 32px;
+        margin: 10px 6px;
+    }
+    .offer-images {
+        width: 96%;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .offer-images .image-box, .offer-images .image-box-selected {
+        width: 30%;
+        height: 120px;
+    }
+    .offer-images .image-box img, .offer-images .image-box-selected img{
+        width: 25px;
+    }
+    .offer-images .image-box p, .offer-images .image-box-selected p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #page4 .learn-section {
+        display: flex;
+    }
+    .learn-section .learn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 8% 10px 0;
+    }
+    #page4 .learn-section a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 550;
+        font-family: 'Manrope', sans-serif;
+    }
+    /* Page 5 */
+    #page5 {
+        padding-top: 10px;
+    }
+    #page5 #image-section {
+        display: flex;
+        width: 100%;
+        height: 250px;
+    }
+    #page5 #image-section .left-image {
+        width: 50%;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+    }
+    #page5 #image-section .right-image {
+        width: 50%;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+    }
+    #page5 #image-section #orange-box {
+        height: 300px;
+        width: 70%;
+        background-color: #FF6433;
+        position: relative;
+        left: 80px;
+    }
+    #page5 #image-section #orange-box h3 {
+        font-size: 24px;
+        color: white;
+        font-weight: 600;
+        padding: 30px;
     }
 }
