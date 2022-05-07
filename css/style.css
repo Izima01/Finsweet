@@ -335,16 +335,6 @@ input[type="text"] {
     flex-wrap: wrap;
 }
 
-/* .offer-images .image-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 7px auto 0;
-    height: 60%;
-    justify-content: center;
-    align-items: center;
-} */
-
 .offer-images .image-box, .offer-images .image-box-selected {
     width: 24%;
     height: 150px;
@@ -458,7 +448,6 @@ input[type="text"] {
 
 .experience-row {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -778,6 +767,7 @@ footer p {
     }
     #page1 .container header .contact {
         display: none;
+        width: 5%;
     }
     #page1 .container, #page3 {
         width: 90%;
@@ -791,7 +781,6 @@ footer p {
         align-items: flex-start;
         justify-content: flex-start;
         margin: 20px auto 10px;
-        border-bottom: 1px dotted #1E1B1B;
     }
     #page1 .container header .logo img {
         width: 10%;
@@ -802,7 +791,10 @@ footer p {
     #page1 .container header .right-section {
         width: 100%;
         margin: 10px 0;
-        padding: 0;                
+        padding: 0;           
+    }
+    #page1 .container header .right-section nav {
+        width: 100%;
     }
     #page1 .container header .right-section ul {
         padding: 0;
@@ -810,9 +802,10 @@ footer p {
         width: 100%;
     }    
     #page1 .container header ul a {
-        font-size: 14px;
-        padding-right: 8px;
+        font-size: 16px;
+        padding-right: 10px;
         line-height: 15px;
+        width: 19%;
     }
     #page1 .container .page-body, #page2, #page3 {
         display: flex;
@@ -984,18 +977,18 @@ footer p {
     }
     #page5 #image-section .left-image {
         width: 50%;
-        height: 300px;
+        height: 250px;
         background-position: center;
         background-size: cover;
     }
     #page5 #image-section .right-image {
         width: 50%;
-        height: 300px;
+        height: 250px;
         background-position: center;
         background-size: cover;
     }
     #page5 #image-section #orange-box {
-        height: 300px;
+        height: 250px;
         width: 80%;
         background-color: #FF6433;
         position: relative;
@@ -1006,5 +999,27 @@ footer p {
         color: white;
         font-weight: 600;
         padding: 20px;
+    }
+    #page5 #experience-section {
+        width: 100%;
+    }
+    .exp-box {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        width: 25%;
+    }
+    .exp-box h1 {
+        font-size: 30px;
+        line-height: 36px;
+        color: #661CE7;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 600;
+    }
+    .exp-box p {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
     }
 }
