@@ -1193,10 +1193,8 @@ footer p {
         width: 100%;
         justify-content: space-evenly;
     }
-    footer nav ul li {
-    }
     footer nav a {
-        font-size: 12px;
+        font-size: 11px;
         padding-right: 0;
         line-height: 16px;
     }
