@@ -1027,7 +1027,8 @@ footer p {
     }
     #page6 #brand-section {
         margin: 0 auto;
-        width: 100%;
+        width: 95%;
+        flex-wrap: wrap;
     }
     #page6 #brand-section .image-box {
         width: 50%;
