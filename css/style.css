@@ -630,7 +630,6 @@ input[type="text"] {
     font-size: 18px;
     color: #939191;
     opacity: 0.8;
-    display: none;
 }
 
 .faq-section .faq .question {
@@ -756,7 +755,7 @@ footer p {
 
 /* Mobile View */
 @media (max-width: 426px) {
-    #page1, #page2, #page4, #page5, #page6, #page7  {
+    #page1, #page2, #page4, #page5, #page6, #page7, #page7 .page-body, #page8, #page8 .page-body, #page9, #page9 .top-section, footer {
         height: auto;
         width: 100%;
     }
@@ -935,6 +934,7 @@ footer p {
         margin: 20px auto;
         display: flex;
         flex-wrap: wrap;
+        padding-left: 10px;
     }
     .offer-images .image-box, .offer-images .image-box-selected {
         width: 30%;
@@ -1003,7 +1003,7 @@ footer p {
         width: 25%;
     }
     .exp-box h1 {
-        font-size: 30px;
+        font-size: 26px;
         line-height: 36px;
         color: #661CE7;
         font-family: 'Manrope', sans-serif;
@@ -1050,45 +1050,45 @@ footer p {
     .review-section {
         width: 98%;
         display: flex;
-        /* flex-direction: column; */
-        justify-content: center;
+        flex-direction: column;
         margin: 0 auto 10px;
     }
     .review-section .review-box {
-        width: 48%;
+        width: 90%;
         background-color: #ffffff;
         padding: 15px;
-        margin: 0 auto;
+        margin: 10px auto;
         border-radius: 6px;
     }
     .review-section .review-box .review-bio {
         padding-bottom: 10px;
-        justify-content: center;
     }
     .review-section .review-box .review-bio .review-image {
-        width: 42px;
-        padding-right: 10px;
+        width: 50px;
+        padding-right: 15px;
     }
     .review-section .review-box .review-bio .review-image img {
         width: 100%;
     }
     .review-section .review-box .review-bio .name {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 20px;
     }
     .review-section .review-box .review-bio .location {
-        font-size: 12px;
+        font-size: 14px;
     }
     .review-section .review-box .review-text {
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 14px;
+        line-height: 20px;
     }
     #page7 .page-body .bottom-section {
         height: auto;
         margin: 0px auto;
         display: flex;
         width: 100%;
-        padding: 10px 0;
+        padding-right: 12px;
+        padding-bottom: 15px;
+        align-items: unset;
     }
     #page7 .page-body .bottom-section .scroll-lines img {
         margin: 0;
@@ -1096,10 +1096,117 @@ footer p {
         width: 50%;
     }
     #page7 .page-body .bottom-section .scroll-arrow #left-arrow {
-        width: 20px;
+        width: 25px;
     }
     #page7 .page-body .bottom-section .scroll-arrow #right-arrow {
-        width: 42px;
+        width: 40px;
         padding-left: 5px;
+    }
+    /* Page 8 */
+    #page8 .page-body {
+        padding-top: 30px;
+    }
+    #page8 .page-body h3 {
+        font-size: 32px;
+        margin: 0 auto 20px;
+        line-height: 36px;
+    }
+    #page8 .faq-section {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    #page8 .faq-section .faq {
+        padding: 8px 15px;
+    }
+    #page8 .faq-section .faq .question p {
+        font-size: 16px;
+    }
+    #page8 .faq-section .faq .question #minus, .faq-section .faq .question #plus {
+        width: 35px;
+    }
+    #page8 .faq-section .faq .question #minus img, .faq-section .faq .question #plus img {
+        width: 100%;
+    }
+    #page8 .faq-section .faq .answer p {
+        font-size: 12px;
+    }
+    /* Page 9 */
+    #page9 .top-section {
+        opacity: 0.98;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 40px;
+    }
+    #page9 .top-section .left-section {
+        width: 90%;
+        padding: 0;
+        margin-top: 40px;
+    }
+    #page9 .top-section h3 {
+        font-size: 34px;
+        line-height: 40px;
+        padding-bottom: 30px;
+    }
+    #page9 .top-section .left-section .social-icons {
+        width: 80%;
+    }
+    #page9 .top-section .left-section .social-icons img {
+        width: 10%;
+    }
+    #page9 .top-section .right-section {
+        padding-top: 40px;
+        width: 80%;
+        padding-bottom: 20px;
+    }
+    #page9 .top-section .right-section h5 {
+        font-size: 14px;
+        padding-bottom: 0;
+    }
+    #page9 .top-section .right-section p {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    /* Footer */
+    footer {
+        justify-content: space-around;
+    }
+    footer .logo {
+        width: 18%;
+        padding-left: 8px;
+    }
+    footer .logo img {
+        width: 100%;
+    }
+    footer nav {
+        margin: 0 auto;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    footer nav ul {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    footer nav ul li {
+    }
+    footer nav a {
+        font-size: 12px;
+        padding-right: 0;
+        line-height: 16px;
+    }
+    footer #copyright {
+        width: 25%;
+        padding-right: 5px;
+    }
+    footer #copyright p {
+        margin: 0;
+        font-size: 11px;
+        line-height: 14px;
     }
 }
