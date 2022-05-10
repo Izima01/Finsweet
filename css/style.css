@@ -402,9 +402,8 @@ input[type="text"] {
 
 #page5 {
     width: 100%;
-    height: 100vh;
+    height: 92vh;
     background-color: #F2F2F2;
-    border-bottom: 2px solid white;
     padding-top: 40px;
 }
 
@@ -453,7 +452,7 @@ input[type="text"] {
 }
 
 .exp-box {
-    margin: 40px 0px;
+    margin: 30px 0px 10px;
 }
 
 .exp-box h1 {
@@ -471,15 +470,14 @@ input[type="text"] {
 }
 
 /* Styling Page 6 */
-
 #page6 {
     background-color: #FAFAFA;
-    height: 80vh;
+    height: auto;
 }
 
 #page6 h2 {
     font-size: 48px;
-    line-height: 65px;
+    line-height: 60px;
     text-align: center;
     padding-top: 50px;
     font-family: 'Manrope', sans-serif;
@@ -488,17 +486,14 @@ input[type="text"] {
 
 #page6 #brand-section {
     display: flex;
-    flex-direction: column;
-    margin-top: 30px;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 10px auto 0;
 }
 
-#page6 #brand-section .brand-row {
-    display: flex;
-    justify-content: center;
-}
-
-#page6 #brand-section .brand-row .image-box {
-    padding-right: 20px;
+#page6 #brand-section .image-box {
+    width: 20%;
+    margin-bottom: 10px;
 }
 
 /* Styling Page 7 */
@@ -515,7 +510,7 @@ input[type="text"] {
     font-size: 48px;
     font-weight: 600;
     text-align: center;
-    padding: 80px 0 30px;
+    padding: 50px 0 30px;
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
     width: 60%;
@@ -761,7 +756,7 @@ footer p {
 
 /* Mobile View */
 @media (max-width: 426px) {
-    #page1, #page2, #page4, #page5 {
+    #page1, #page2, #page4, #page5, #page6, #page7  {
         height: auto;
         width: 100%;
     }
@@ -835,10 +830,11 @@ footer p {
         height: auto;
     }
     #page2 .services h2 {
-        font-size: 30px;
+        font-size: 32px;
         line-height: 36px;
         width: 100%;
         margin: 0;
+        text-align: center;
     }
     #page2 .services ul li img {
         width: 46px;
@@ -894,10 +890,11 @@ footer p {
     /* Page 3 */
     #page3 .process-left {
         margin: 20px auto 0;
-        width: 92%;
+        width: 100%;
     }
     #page3 .process-left h1 {
-        font-size: 34px;        
+        font-size: 32px;
+        text-align: center;        
     }
     #page3 .process-right {
         width: 100%;
@@ -975,17 +972,12 @@ footer p {
         width: 100%;
         height: 250px;
     }
-    #page5 #image-section .left-image {
+    #page5 #image-section .left-image, #page5 #image-section .right-image {
         width: 50%;
         height: 250px;
         background-position: center;
         background-size: cover;
-    }
-    #page5 #image-section .right-image {
-        width: 50%;
-        height: 250px;
-        background-position: center;
-        background-size: cover;
+        background-repeat: no-repeat;
     }
     #page5 #image-section #orange-box {
         height: 250px;
@@ -1021,5 +1013,92 @@ footer p {
         text-align: center;
         font-size: 14px;
         font-weight: 500;
+    }
+    /* Page 6 */
+    #page6 {
+        margin: 0 auto;
+    }
+    #page6 h2 {
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 700;
+    }
+    #page6 #brand-section {
+        margin: 0 auto;
+        width: 100%;
+    }
+    #page6 #brand-section .image-box {
+        width: 50%;
+        margin: 0 auto;
+    }
+    #page6 #brand-section .image-box img {
+        width: 100%;
+    }
+    /* Page 7 */
+    #page7 h2 {
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        padding: 20px 15px;
+        margin: 0 auto;
+        font-family: 'Manrope', sans-serif;
+        width: 100%;
+    }
+    .review-section {
+        width: 98%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        margin: 0 auto 10px;
+    }
+    .review-section .review-box {
+        width: 48%;
+        background-color: #ffffff;
+        padding: 15px;
+        margin: 0 auto;
+        border-radius: 6px;
+    }
+    .review-section .review-box .review-bio {
+        padding-bottom: 10px;
+        justify-content: center;
+    }
+    .review-section .review-box .review-bio .review-image {
+        width: 42px;
+        padding-right: 10px;
+    }
+    .review-section .review-box .review-bio .review-image img {
+        width: 100%;
+    }
+    .review-section .review-box .review-bio .name {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .review-section .review-box .review-bio .location {
+        font-size: 12px;
+    }
+    .review-section .review-box .review-text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #page7 .page-body .bottom-section {
+        height: auto;
+        margin: 0px auto;
+        display: flex;
+        width: 100%;
+        padding: 10px 0;
+    }
+    #page7 .page-body .bottom-section .scroll-lines img {
+        margin: 0;
+        margin-left: 55%;
+        width: 50%;
+    }
+    #page7 .page-body .bottom-section .scroll-arrow #left-arrow {
+        width: 20px;
+    }
+    #page7 .page-body .bottom-section .scroll-arrow #right-arrow {
+        width: 42px;
+        padding-left: 5px;
     }
 }
