@@ -40,17 +40,17 @@
 
 #page1 .container header ul a {
     text-decoration: none;
-    padding-right: 30px;
-    font-size: 18px;
+    padding-right: 40px;
+    font-size: 20px;
     line-height: 26px;
     color: #1E1B1B;
     font-family: 'Manrope', sans-serif;
 }
 
 #page1 .container header .right-section {
-    width: 70%;
+    width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -1443,5 +1443,112 @@ footer p {
     }
     .exp-box p {
         font-size: 16px;
+    }
+    /* Page 6 */
+    #page6 h2 {
+        font-size: 36px;
+        line-height: 40px;
+        padding-top: 30px;
+    }
+    #page6 #brand-section .image-box {
+        width: 28%;
+        margin: auto;
+    }
+    #page7 .page-body {
+        height: auto;
+    }
+    #page7 h2 {
+        font-size: 36px;
+        line-height: 42px;
+        padding: 30px 0 20px;
+        width: 80%;
+    }
+    .review-section {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .review-section .review-box {
+        width: 45%;
+        padding: 30px;
+        margin-left: 15px;
+    }
+    .review-section .review-box .review-bio .name {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .review-section .review-box .review-text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    #page7 .page-body .bottom-section {
+        height: 8%;
+        margin: 0px auto;
+        padding: 1% 1.5% 2.5%;
+        width: auto;
+    }
+    /* Page 8 */
+    #page8 .page-body {
+        height: auto;
+        padding-top: 30px;
+    }
+    #page8 .page-body h3 {
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+    .faq-section {
+        width: 80%;
+    }
+    .faq-section .faq .question p {
+        font-size: 20px;
+    }
+    .faq-section .faq .answer p {
+        font-size: 14px;
+        width: 90%;
+    }
+    .faq-section .faq .question #minus, .faq-section .faq .question #plus {
+        width: 40px;
+    }
+    .faq-section .faq .question #minus img, .faq-section .faq .question #plus img {
+        width: 100%;
+    }
+    /* Footer  */
+    #page9 .top-section .left-section {
+        width: 40%;
+        padding: 50px 40px 0px 30px;
+    }
+    #page9 .top-section h3 {
+        font-size: 36px;
+        line-height: 42px;
+        /* width: 70%; */
+    }
+    #page9 .top-section .right-section h5 {
+        font-size: 14px;
+    }
+    #page9 .top-section .right-section p {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    footer .logo {
+        width: 20%;
+    }
+    footer nav {
+        width: 60%;
+        margin: 0;
+        justify-content: center;
+        padding-left: 10px;
+    }
+    footer nav ul {
+        width: 100%;
+    }
+    footer nav a {
+        width: 20%;
+    }
+    footer #copyright {
+        width: 20%;
+        padding-right: 1%;
+    }
+    footer p {
+        margin: 0;
     }
 }
