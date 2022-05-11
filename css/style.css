@@ -121,7 +121,7 @@
 
 #page1 .container .page-body .right-section {
     width: 50%;
-    height: 90vh;
+    height: auto;
 }
 
 #page1 .container .page-body .right-section img {
@@ -361,6 +361,7 @@ input[type="text"] {
     line-height: 36px;
     text-align: center;
     font-family: 'Manrope', sans-serif;
+    padding-top: 10px;
 }
 
 .offer-images .image-box-selected p {
@@ -1206,5 +1207,227 @@ footer p {
         margin: 0;
         font-size: 11px;
         line-height: 14px;
+    }
+}
+
+@media (max-width: 769px) {
+    #page1, #page2, #page4, #page5 {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    #page1 .container {
+        width: 94%;
+        height: auto;
+    }
+    #page1 .container header {
+        margin: 20px auto;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    #page1 .container header #logo {
+        width: 14%;
+    }
+    #page1 .container header #logo img {
+        width: 100%;
+    }
+    #page1 .container header .right-section {
+        width: 80%;
+    }
+    #page1 .container header .right-section nav {
+        width: 80%;
+        padding: 0 20px;
+    }
+    #page1 .container header ul a {
+        font-size: 16px;
+        padding: 0;
+        width: 20%;
+    }
+    #page1 .container header .contact {
+        width: 40%;
+        padding: 0;
+        justify-content: center;
+    }
+    #page1 .container header .contact img {
+        padding-left: 10px;
+    }
+    #page1 .container header .contact .road-assist #assist {
+        font-size: 14px;
+    }
+    #page1 .container header .contact .road-assist #phone-number {
+        font-size: 16px;
+        padding-top: 0;
+    }
+    #page1 .container .page-body {
+        width: 100%;
+        justify-content: center;
+        height: auto;
+    }
+    #page1 .container .page-body .left-section {
+        width: 50%;
+        margin-left: 10px;
+    }
+    #page1 .container .page-body .left-section h1 {
+        font-size: 36px;
+        line-height: 45px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    #page1 .container .page-body .right-section {
+        width: 50%;
+    }
+    #page1 .container .page-body .left-section #button {
+        margin-bottom: 20px;
+    }
+    #page1 .container .page-body .left-section .open-part {
+        font-size: 16px;
+    }
+    #page1 .container .page-body .left-section .open-part #open {
+        font-size: 14px;
+        padding-bottom: 0;
+    }
+    /* Page 2 */
+    #page2 .services {
+        margin: 40px 0 0 40px;
+        height: auto;
+        width: 50%;
+    }
+    #page2 .services h2 {
+        font-size: 36px;
+        line-height: 38px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    #page2 .services ul li img {
+        width: 36px;
+    }
+    #page2 .services ul li h5 {
+        font-size: 25px;
+    }
+    #page2 .services ul li p {
+        font-size: 16px;
+        padding: 0 40px 20px 35px;
+        width: 100%;
+    }
+    #page2 .services .know-more {
+        padding-left: 35px;
+        margin-bottom: 30px;
+    }
+    #page2 .form-section h3 {
+        font-size: 36px;
+        line-height: 40px;
+        width: 80%;
+        margin: 50px 0 30px 10px;
+    }
+    input[type="text"] {
+        width: 80%;
+        padding: 8px 30px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 20px;
+        border-radius: 4px;
+    }
+    #page3 {
+        padding-top: 30px;
+    }
+    #page3 .process-left {
+        margin: 10px 30px 0;
+        width: 40%;
+    }
+    #page3 .process-left h1 {
+        font-size: 36px;
+    }
+    #page3 .process-left p {
+        line-height: 20px;
+        width: 80%;
+        letter-spacing: 0.02em;
+    }
+    #page3 .process-left #button {
+        width: auto;
+    }
+    .process-right {
+        height: auto;
+        width: 60%;
+    }
+    .process-right .process {
+        width: 90%;
+    }
+    .process-right .process .process-text h3 {
+        font-size: 24px;
+        margin: 5px 0;
+    }
+    .process-right .process .process-image {
+        width: 20%;
+    }
+    .process-right .process .process-text p {
+        width: 100%;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .process-right .vertical-line {
+        border-left: 2px dashed #FF6433;
+        height: 60px;
+        margin-left: 5%;
+        margin-top: -70px;
+        margin-bottom: 5px;
+    }
+    /* Page 4 */
+    #page4 .top-section h1 {
+        margin: 0 auto;
+        font-size: 36px;
+        line-height: 40px;
+        width: 70%;
+    }
+    .offer-images {
+        width: 85%;
+    }
+    .offer-images .image-box, .offer-images .image-box-selected {
+        width: 23%;
+    }
+    .offer-images .image-box p, .offer-images .image-box-selected p {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        font-family: 'Manrope', sans-serif;
+    }
+    .learn-section .learn {
+        justify-content: flex-end;
+        padding: 20px 10% 0 ;
+    }
+    #page5 #image-section .left-image, #page5 #image-section .right-image {
+        width: 50%;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #page5 #image-section #orange-box {
+        height: 250px;
+        width: 80%;
+        left: 160px;
+    }
+    #page5 #image-section #orange-box h3 {
+        font-size: 32px;
+        line-height: 40px;
+        padding: 30px 20px 0 30px;
+    }
+    #page5 #experience-section {
+        width: 95%;
+    }
+    .experience-row {
+        margin: 0 auto;
+    }
+    .exp-box {
+        width: 23%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .exp-box h1 {
+        font-size: 36px;
+        line-height: 40px;
+        
+    }
+    .exp-box p {
+        font-size: 16px;
     }
 }
