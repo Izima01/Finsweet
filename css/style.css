@@ -270,7 +270,7 @@ input[type="text"] {
 
 .process-right .process {
     display: flex;
-    width: 65%;
+    width: 75%;
     margin-bottom: 30px;
 }
 
@@ -296,9 +296,9 @@ input[type="text"] {
 .process-right .vertical-line {
     border-left: 2px dashed #FF6433;
     height: 60px;
-    margin-left: 4%;
+    margin-left: 5%;
     margin-top: -75px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 /* Styling for page 4 */
