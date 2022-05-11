@@ -11,6 +11,7 @@
 /* Styling Page 1 */
 #page1 {
     height: 100vh;
+    width: 100%;
 }
 
 #page1 .container {
@@ -131,6 +132,7 @@
 
 /* Styling Page 2 */
 #page2 {
+    width: 100%;
     height: 100vh;
     background-color: #E2E6E9;
     display: flex;
@@ -225,6 +227,7 @@ input[type="text"] {
 /* Styling page 3 */
 
 #page3 {
+    width: 100%;
     background-color: #fff;
     display: flex;
     padding-top: 80px;
@@ -304,6 +307,7 @@ input[type="text"] {
 /* Styling for page 4 */
 
 #page4 {
+    width: 100%;
     background-color: #F2F2F2;
     height: 100vh;
 }
@@ -384,7 +388,7 @@ input[type="text"] {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 225px;
+    padding: 30px 225px 0;
     margin-bottom: 30px;
 }
 
@@ -473,6 +477,7 @@ input[type="text"] {
 
 /* Styling Page 6 */
 #page6 {
+    width: 100%;
     background-color: #FAFAFA;
     height: auto;
 }
@@ -501,6 +506,7 @@ input[type="text"] {
 /* Styling Page 7 */
 
 #page7 {
+    width: 100%;
     background-color: #E2E6E9;
 }
 #page7 .page-body{
@@ -599,10 +605,15 @@ input[type="text"] {
 }
 
 /* Page 8 Styling */
+#page8 {
+    width: 100%;
+}
+
 #page8 .page-body {
     background-color: #E2E6E9;
     height: 100vh;
     padding-top: 50px;
+    width: 100%;
 }
 
 #page8 .page-body h3 {
@@ -610,7 +621,7 @@ input[type="text"] {
     font-family: 'Manrope', sans-serif;
     font-weight: 800px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .faq-section {
