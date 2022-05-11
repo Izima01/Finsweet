@@ -50,6 +50,8 @@
 #page1 .container header .right-section {
     width: 70%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #page1 .container header .contact {
