@@ -29,7 +29,7 @@
 }
 
 #page1 .container header .logo {
-    width: 30%;
+    width: 20%;
 }
 
 #page1 .container header ul {
@@ -50,7 +50,6 @@
 #page1 .container header .right-section {
     width: 70%;
     display: flex;
-    justify-content: space-between;
 }
 
 #page1 .container header .contact {
