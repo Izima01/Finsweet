@@ -24,6 +24,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 25px 0;
+    width: 120%;
 }
 
 #page1 .container header .logo {
@@ -143,7 +144,7 @@
 }
 
 #page2 .services h2 {
-    font-size: 48px;
+    font-size: 50px;
     line-height: 54px;
     font-family: 'Manrope', sans-serif;
     margin-bottom: 10px;
@@ -170,7 +171,7 @@
 #page2 .services ul li p {
     font-size: 18px;
     padding: 0 40px 25px 50px;
-    width: 90%;
+    width: 70%;
 }
 
 #page2 .services .know-more {
