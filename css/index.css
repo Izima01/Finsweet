@@ -33,7 +33,7 @@ header .logo {
 }
 header nav {
     width: 70%;
-    margin: 0 3%;
+    margin-right: 2%;
 }
 
 header ul {
@@ -45,7 +45,6 @@ header ul {
 
 header ul li {
     text-align: center;
-    width: 20%;
 }
 
 header ul a {
@@ -55,11 +54,12 @@ header ul a {
     color: #1E1B1B;
     justify-content: center;
     text-align: center;
+    width: 20%;
 }
 
 header ul a:hover {
     color: #FF6433;
-    font-size: 26px;
+    font-size: 25px;
 }
 
 header .right-section {
@@ -764,7 +764,7 @@ footer nav ul {
 }
 
 footer nav ul li {
-    width: 20%;
+    text-align: center;
 }
 
 footer nav a {
@@ -774,11 +774,12 @@ footer nav a {
     font-family: 'Manrope', sans-serif;
     line-height: 30px;
     text-align: center;
+    width: 20%;
 }
 
 footer ul a:hover {
     color: #FF6433;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 footer #copyright {
@@ -787,7 +788,7 @@ footer #copyright {
 
 footer p {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     color: #939191;
     font-weight: 600;
     line-height: 24px;
