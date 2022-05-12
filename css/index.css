@@ -1252,7 +1252,7 @@ footer p {
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 769px) and (min-width: 429px) {
     #page1, #page2, #page4, #page5 {
         width: 100%;
         height: auto;

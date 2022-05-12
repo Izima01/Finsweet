@@ -139,6 +139,7 @@ header .contact .road-assist #phone-number {
     margin-top: 3%;
     cursor: pointer;
 }
+
 /* Page 2 */
 #page2 {
     background-color: #F5F5F5;
@@ -183,7 +184,6 @@ header .contact .road-assist #phone-number {
     font-size: 18px;
     color: #1E1B1B;
     align-items: center;
-    
 }
 
 #page2 .container .left-section a p {
@@ -222,7 +222,7 @@ header .contact .road-assist #phone-number {
 #page3 .container {
     width: 80%;
     margin: 0 auto;
-    padding: 3% 0;
+    padding: 4% 0;
 }
 
 #page3 .container .top-section, #page3 .container .bottom-section {
@@ -264,10 +264,10 @@ header .contact .road-assist #phone-number {
 }
 
 #page3 .container .top-section .image-section {
-    width: 42%;
+    width: 50%;
     display: flex;
-    justify-content: flex-start;
-    height: 50vh;
+    justify-content: center;
+    height: 60vh;
 }
 
 #page3 .container .top-section .image-section img {
@@ -276,7 +276,7 @@ header .contact .road-assist #phone-number {
 }
 
 #page3 .container .bottom-section {
-    margin: 5% 0;
+    margin: 4% 0 0;
 }
 
 #page3 .container .bottom-section .image-section {
@@ -290,10 +290,6 @@ header .contact .road-assist #phone-number {
     width: 97%;
     height: 100%;
 }
-
-/* #page3 .container .bottom-section .text-section {
-    width: 45%;
-} */
 
 #page3 .container .bottom-section .text-section h3 {
     font-size: 42px;
@@ -337,7 +333,6 @@ header .contact .road-assist #phone-number {
     font-weight: 700;
     color: white;
     padding-bottom: 35px;
-    font-family: 'Manrope', sans-serif; 
 }
 
 #page4 .top-section .left-section .social-icons {
@@ -362,13 +357,11 @@ header .contact .road-assist #phone-number {
     opacity: 0.65;
     font-weight: 500;
     padding-bottom: 5px;
-    font-family: 'Manrope', sans-serif;
 }
 
 #page4 .top-section .right-section p {
     font-size: 24px;
     padding-bottom: 30px;
-    font-family: 'Manrope', sans-serif;
 }
 
 /* Styling the Footer */
@@ -409,10 +402,8 @@ footer nav a {
     text-decoration: none;
     font-size: 24px;
     color: #ffffff;
-    font-family: 'Manrope', sans-serif;
     line-height: 30px;
     text-align: center;
-    /* width: 20%; */
 }
 
 footer ul a:hover {
@@ -430,5 +421,4 @@ footer p {
     color: #939191;
     font-weight: 600;
     line-height: 24px;
-    font-family: 'Manrope', sans-serif;
 }
