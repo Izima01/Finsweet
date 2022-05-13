@@ -109,23 +109,14 @@ header .contact .road-assist #phone-number {
 #page1 .container .page-body .left-section h1 {
     font-size: 54px;
     padding-bottom: 20px;
-    font-family: 'Manrope', sans-serif;
     font-weight: 800;
-}
-
-#page1 .container .page-body .left-section #button {
-    padding: 10px 40px;
-    font-size: 18px;
-    width: auto;
-    border-radius: 8px;
-    margin-bottom: 40px;
-    cursor: pointer;
 }
 
 #page1 .container .page-body .left-section .open-part {
     display: flex;
     align-items: center;
     font-size: 18px;
+    margin-top: 40px;
 }
 
 #page1 .container .page-body .left-section .open-part img {
@@ -203,9 +194,13 @@ header .contact .road-assist #phone-number {
     font-size: 18px;
     color: #1E1B1B;
     font-weight: 600;
-    font-family: 'Manrope', sans-serif;
     align-items: center;
     display: flex;
+}
+
+#page2 .services .know-more a:hover {
+    font-size: 20px;
+    color: #FF6433;
 }
 
 #page2 .services .know-more img {
@@ -234,12 +229,7 @@ input[type="text"] {
 }
 
 #page2 .form-section #button {
-    font-size: 16px;
-    line-height: 20px;
-    border-radius: 10px;
     margin-top: 20px;
-    cursor: pointer;
-    width: auto;
 }
 
 /* Styling page 3 */
@@ -274,7 +264,7 @@ input[type="text"] {
 }
 
 #button {
-    width: 30%;
+    width: auto;
     padding: 10px 30px;
     border-radius: 5px;
     background-color: #FF6433;
@@ -282,6 +272,16 @@ input[type="text"] {
     color: white;
     margin-top: 10px;
     cursor: pointer;
+    font-size: 18px;
+}
+
+#button:hover {
+    border-radius: 25px;
+}
+
+#button:focus {
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #939191;
 }
 
 .process-right {
@@ -420,7 +420,11 @@ input[type="text"] {
     color: black;
     font-size: 18px;
     font-weight: 550;
-    font-family: 'Manrope', sans-serif;
+}
+
+#page4 .learn-section a:hover {
+    font-size: 20px;
+    color: #FF6433;
 }
 
 /* styling Page 5 */
@@ -621,6 +625,10 @@ input[type="text"] {
 #page7 .page-body .bottom-section .scroll-arrow #right-arrow {
     width: 55px;
     padding-left: 10px;
+}
+
+#page7 .page-body .bottom-section .scroll-arrow #left-arrow:hover, #page7 .page-body .bottom-section .scroll-arrow #right-arrow:hover {
+    width: 110%;
 }
 
 /* Page 8 Styling */

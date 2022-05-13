@@ -140,6 +140,20 @@ header .contact .road-assist #phone-number {
     cursor: pointer;
 }
 
+#button:hover {
+    border-radius: 25px;
+}
+
+#page1 .page-body .text-section #button:focus {
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #949494;
+}
+
+#button:focus {
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #939191;
+}
+
 /* Page 2 */
 #page2 {
     background-color: #F5F5F5;
