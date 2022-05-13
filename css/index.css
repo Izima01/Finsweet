@@ -30,6 +30,7 @@ header {
     position: sticky;
     top: 0%;
     background-color: #ffffff;
+    z-index: +1;
 }
 
 header .logo {
@@ -64,6 +65,8 @@ header ul a {
 header ul a:hover {
     color: #FF6433;
     font-size: 24px;
+    border-bottom: 5px solid #FF6433;
+    padding-bottom: 5%;
 }
 
 header .right-section {
@@ -793,6 +796,8 @@ footer nav a {
 footer ul a:hover {
     color: #FF6433;
     font-size: 28px;
+    border-bottom: 5px solid #FF6433;
+    padding-bottom: 5%;
 }
 
 footer #copyright {
@@ -844,6 +849,7 @@ footer p {
     }
     header .right-section nav {
         width: 100%;
+        margin-right: 0%;
     }
     header .right-section ul {
         padding: 0;
